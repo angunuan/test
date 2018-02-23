@@ -36,7 +36,7 @@ RUN apt-get update \
         mysqli \
         pdo_mysql \
         gd \
-    && pecl install xdebug \
+    && pecl install xdebug-2.5.5 \
     && pecl install memcache \
     && pecl install memcached-2.2.0 \
     && pecl install redis \
